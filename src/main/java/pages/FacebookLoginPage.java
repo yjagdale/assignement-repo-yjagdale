@@ -69,7 +69,7 @@ public class FacebookLoginPage {
 
 
     /**
-     * Method will be conbination of steps which needs to be followed to login to facebook.
+     * Method will be combination of steps which needs to be followed to login to facebook.
      *
      * @Input (String username, @String Password, @Boolean login_status)
      * @UserName will be user name which needs to be used while login
@@ -79,13 +79,13 @@ public class FacebookLoginPage {
      *
      * <p>
      * Function perform below steps:-
-     * 1. click On Post Area
-     * 2. set Post Text
-     * 3. click On Post Button
+     * 1. Set Username
+     * 2. Set password
+     * 3. Click sign In button
      * <p>
      * <p>
      * Usage
-     * facebookHomePage.postOnWall(textToPost);
+     * facebookHomePage.performLogin(textToPost);
      * where facebookHomePage is object of FacebookHomePage class.
      */
     public void performLogin(String userName, String password, boolean loginStatus) {
